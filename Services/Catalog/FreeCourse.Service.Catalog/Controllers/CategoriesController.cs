@@ -17,6 +17,7 @@ namespace FreeCourse.Service.Catalog.Controllers
             _categoryService = categoryService;
         }
 
+        [HttpGet]
 
         public async Task<IActionResult> GetAll()
         {
